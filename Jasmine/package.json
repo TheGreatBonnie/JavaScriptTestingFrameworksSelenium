@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "selenium-webdriver": "^4.15.0"
+  }
+}

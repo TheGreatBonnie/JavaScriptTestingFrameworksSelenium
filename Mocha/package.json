@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "npm run single",
+    "single": "cross-env CONFIG_FILE=single ./node_modules/.bin/mocha specs/addToCart.js conf/addToCart.conf.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0"
+  }
+}

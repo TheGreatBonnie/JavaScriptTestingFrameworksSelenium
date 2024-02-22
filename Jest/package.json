@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@lambdatest/node-rest-client": "^1.0.8",
+    "selenium-webdriver": "^4.15.0"
+  }
+}
